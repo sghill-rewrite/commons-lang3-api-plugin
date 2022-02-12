@@ -9,6 +9,37 @@ This plugin provides [Commons Lang v3.x](https://commons.apache.org/proper/commo
 
 Version will be "&lt;commons-lang version&gt;_&lt;plugin version&gt;", so clear what upstream dependency it is offering and plugin can be patch by "plugin version" if required.
 
+## How to introduce to your plugin
+
+### Plugins directly depending on httpclient
+
+Replace the dependency to `org.apache.httpcomponents:httpclient` with the dependency to `apache-httpcomponents-client-4-api`.
+
+* Before:
+    ```
+    <dependencies>
+      ...
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.12.0</version>
+      </dependency>
+      ...
+    </dependencies>
+    ```
+* After:
+    ```
+    <dependencies>
+      ...
+      <dependency>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>commons-lang3-api-plugin</artifactId>
+        <version>3.12.0_0</version>
+      </dependency>
+      ...
+    </dependencies>
+    ```
+
 ### Change Log
 
 #### Version 3.12.0_0 (Feb TBC, 2022)
