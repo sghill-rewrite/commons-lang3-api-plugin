@@ -18,7 +18,7 @@
     </properties>
     <name>Api Plugin for org.apache.commons:commons:lang3</name>
     <description>To break dependencies on jars within core jenkins, so plugins and 'reuse' and core jenkins is more free to refactor as required.</description>
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/Commons+Lang3+Api+Plugin</url>
+    <url>https://github.com/jenkinsci/commons-lang3-api-plugin</url>
     <licenses>
         <license>
             <name>MIT License</name>
