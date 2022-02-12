@@ -1,7 +1,9 @@
-[![Build Status](https://ci.jenkins.io/buildStatus/icon?job=Plugins/commons-lang3-api-plugin/main)](https://ci.jenkins.io/blue/organizations/jenkins/Plugins%2Fcommons-lang3-api-plugin/activity/) [![Build Status](https://travis-ci.org/jenkinsci/commons-lang3-api-plugin.svg?branch=main)](https://travis-ci.org/jenkinsci/commons-lang3-api-plugin)
-
 commons-lang3-api Plugin
 ===================
+
+[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/commons-lang3-api-plugin.svg)](https://plugins.jenkins.io/commons-lang3-api-plugin)
+[![Build Status](https://ci.jenkins.io/buildStatus/icon?job=Plugins/commons-lang3-api-plugin/main)](https://ci.jenkins.io/blue/organizations/jenkins/Plugins%2Fcommons-lang3-api-plugin/activity/)
+[![Jenkins Plugin Installs](https://img.shields.io/jenkins/plugin/i/commons-lang3-api-plugin.svg?color=blue)](https://plugins.jenkins.io/commons-lang3-api-plugin)
 
 This plugin provides [Commons Lang v3.x](https://commons.apache.org/proper/commons-lang/) to Jenkins Plugins.<br>
 
