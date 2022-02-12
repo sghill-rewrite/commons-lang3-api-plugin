@@ -1,4 +1,4 @@
 <?jelly escape-by-default='true'?>
 <div>
-    TODO
+  Bundles Apache Commons Lang v3.x and allows it to be used by Jenkins plugins.
 </div>
