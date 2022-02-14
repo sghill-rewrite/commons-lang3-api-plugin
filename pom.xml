@@ -16,8 +16,9 @@
         <jenkins.version>2.277.1</jenkins.version>
         <java.level>8</java.level>
     </properties>
-    <name>Api Plugin for org.apache.commons:commons:lang3</name>
-    <description>To break dependencies on jars within core jenkins, so plugins and 'reuse' and core jenkins is more free to refactor as required.</description>
+    <name>commons-lang3 v3.x Jenkins Api Plugin</name>
+    <description>Jenkins Api Plugin to provide org.apache.commons:commons-lang3:${commons-lang3.version}.
+        Will break usage upon jars being provided by core jenkins.</description>
     <url>https://github.com/jenkinsci/commons-lang3-api-plugin</url>
     <dependencyManagement>
         <dependencies>
